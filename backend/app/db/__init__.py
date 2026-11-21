@@ -1,0 +1,47 @@
+"""Database metadata, entities, and session management."""
+
+from app.db.base import Base
+from app.db.models import (
+    Asset,
+    AssetSoftware,
+    AuditEvent,
+    CveRecord,
+    CweRecord,
+    EpssRecord,
+    IngestionRun,
+    Investigation,
+    InvestigationAudit,
+    KevRecord,
+    Organization,
+    OsvRecord,
+    RagDocument,
+    RagIndexRun,
+    RiskHistory,
+    SoftwareProduct,
+    SourceRecord,
+    User,
+    VulnerabilityMatch,
+)
+
+__all__ = [
+    "AuditEvent",
+    "Asset",
+    "AssetSoftware",
+    "Base",
+    "CveRecord",
+    "CweRecord",
+    "EpssRecord",
+    "IngestionRun",
+    "Investigation",
+    "InvestigationAudit",
+    "KevRecord",
+    "Organization",
+    "RagDocument",
+    "RagIndexRun",
+    "RiskHistory",
+    "OsvRecord",
+    "SourceRecord",
+    "SoftwareProduct",
+    "User",
+    "VulnerabilityMatch",
+]

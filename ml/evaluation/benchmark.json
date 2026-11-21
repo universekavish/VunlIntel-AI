@@ -1,0 +1,41 @@
+[
+  {
+    "task": "vulnerability_classification",
+    "identity": "CVE-TEST-0001",
+    "input": "A test-only description states that a remote unauthenticated request can execute code.",
+    "output": {
+      "classification": "vulnerable",
+      "severity": "high",
+      "citations": ["nvd:CVE-TEST-0001"]
+    },
+    "source_citations": ["nvd:CVE-TEST-0001"],
+    "benchmark": "synthetic-boundary-fixture",
+    "license": "test-fixture"
+  },
+  {
+    "task": "cwe_classification",
+    "identity": "CWE-79",
+    "input": "A test-only sample describes unneutralized web input used in generated HTML.",
+    "output": {
+      "cwe_id": "CWE-79",
+      "citations": ["mitre_cwe:CWE-79"]
+    },
+    "source_citations": ["mitre_cwe:CWE-79"],
+    "benchmark": "synthetic-boundary-fixture",
+    "license": "test-fixture"
+  },
+  {
+    "task": "structured_report_generation",
+    "identity": "CVE-TEST-0002",
+    "input": "A test-only record contains no evidence for an exploit command.",
+    "output": {
+      "summary": "Insufficient evidence.",
+      "recommendations": [],
+      "unsupported_claims": [],
+      "citations": []
+    },
+    "source_citations": [],
+    "benchmark": "synthetic-boundary-fixture",
+    "license": "test-fixture"
+  }
+]

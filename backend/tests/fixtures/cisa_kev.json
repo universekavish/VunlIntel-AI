@@ -1,0 +1,21 @@
+{
+  "title": "CISA Catalog of Known Exploited Vulnerabilities",
+  "catalogVersion": "2026.11.21",
+  "dateReleased": "2026-11-21T12:00:00Z",
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2024-0001",
+      "vendorProject": "Fixture Vendor",
+      "product": "Fixture Product",
+      "vulnerabilityName": "Fixture Vulnerability",
+      "dateAdded": "2026-11-21",
+      "shortDescription": "Fixture response matching the official CISA KEV object shape.",
+      "requiredAction": "Apply mitigations.",
+      "dueDate": "2026-12-01",
+      "knownRansomwareCampaignUse": "Unknown",
+      "cwes": ["CWE-79"],
+      "notes": "https://example.test/kev"
+    }
+  ]
+}

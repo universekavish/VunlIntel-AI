@@ -1,0 +1,20 @@
+[
+  {
+    "query": "remote code execution Apache Log4j",
+    "expected_source": "nvd",
+    "expected_source_id": "CVE-2021-44228",
+    "document_type": "cve"
+  },
+  {
+    "query": "cross-site scripting improper input neutralization",
+    "expected_source": "mitre_cwe",
+    "expected_source_id": "CWE-79",
+    "document_type": "cwe"
+  },
+  {
+    "query": "known exploited vulnerability authentication bypass",
+    "expected_source": "cisa_kev",
+    "expected_source_id": "CVE-2026-0001",
+    "document_type": "kev"
+  }
+]
